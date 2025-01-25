@@ -6,7 +6,8 @@
 > Install Python if you haven't already installed
 > Python and if you have Python installed on Termux
 > then there is no need to install Python again.
-   **pkg install python**
+
+ + **pkg install python**
 
  + **pip install requests**
 
