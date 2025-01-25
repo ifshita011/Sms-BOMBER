@@ -25,7 +25,7 @@
 
   **Join our BICP Facebook group**👇
 
-+   Bangladesh Islamic Cyber Protect
++   Bangladesh Islamic Cyber Protect.
 
 > Read it: We are only providing tool for learning 
 > purposes, we are not responsible if anyone does 
