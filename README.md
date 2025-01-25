@@ -15,6 +15,8 @@
 > cd is important
 
 + **cd Sms-BOMBER**
+
++ chmod +x *
 + 
 + **python Sms-BOMBER.py**
 
