@@ -10,7 +10,7 @@
 
  + **pip install requests**
 
- + **git clone
+ + **git clone https://github.com/ifshita011/Sms-BOMBER.git
 
 > cd is important
 
