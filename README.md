@@ -17,7 +17,7 @@
 
 + **cd Sms-BOMBER**
 
-+ chmod +x *
++ chmod +x  *
   
 + **python Sms-BOMBER.py**
 
@@ -33,6 +33,7 @@
 
 ## Find Me on :
 
-[![Facebook](https://www.facebook.com/share/18AgNihJ2Z/)
-+ *or search- Ifshita Arohi*
-[![Telegram](@Ifshita321)
+[![Facebook]
+https://www.facebook.com/share/18AgNihJ2Z/
++ or search- Ifshita Arohi
+[![Telegram] (@Ifshita321)
